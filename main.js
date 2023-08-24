@@ -1,34 +1,5 @@
-const todos = [
-    {
-        id: 1,
-        text: 'Take out trash',
-        isCompleted: true
-    },
-    {
-        id: 2,
-        text: 'Meeting with boss',
-        isCompleted: true
-    },
-    {
-        id: 3,
-        text: 'Dentist appt',
-        isCompleted: false
-    }
-];
+const addNums = num1 => num1 + 5;
 
-// forEach, map, filter
-const todoCompleted = todos.filter(function(todo) {
-  return todo.isCompleted ===true;
-}).map(function(todo) {
-    return todo.text;
-})
+console.log(addNums(5));
 
-console.log(todoCompleted);
-
-
-
-
-
-
-
-
+todos.forEach((todo) => console.log(todo));
